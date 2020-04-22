@@ -1,24 +1,6 @@
-# Blender Add-ons for WebXR
+# Clipboard tools add-on
 
-Small Blender Add-ons that may be useful for WebXR and WebGL development
-
-## Installation
-
-1. Download the add-on you like from the webxr-addons folder
-2. In Blender, go to Edit > Preferences > Add-ons and click on `Install...`.
-3. Select the .py file from your drive, and activate the checkbox next to the newly added Add-on
-
-## glTF MultiExport
-
-Allows to define glTF export settings **per object**, and batch export all objects
-in the scene in independent glTF files with a single button (or shortcut).
-
-![screenshot](./doc/gltfmultiexport.png)
-
-
-## Clipboard tools
-
-![screenshot](./doc/clipboardtools.png)
+![screenshot](clipboardtools.png)
 
 Copies to the clipboard the position, rotation or scale of the selected object
 ```js
@@ -35,4 +17,10 @@ var Plane = {
 }
 ```
 
+
+## Installation
+
+1. Download [clipboard_tools.py](clipboard_tools.py)
+2. In Blender, go to Edit > Preferences > Add-ons and click on `Install...`.
+3. Select the add-on file from your drive, and set the add-on checkbox on.
 
